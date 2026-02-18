@@ -1,0 +1,13 @@
+# Gradle/Android build outputs
+build/
+**/build/
+
+# Local environment files
+.local/
+.localhistory/
+.idea/
+*.iml
+local.properties
+
+# Prevent binary wrapper jar from being committed (PR tooling expects text-only diffs)
+gradle/wrapper/gradle-wrapper.jar
